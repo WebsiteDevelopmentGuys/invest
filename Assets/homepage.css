@@ -1,0 +1,316 @@
+@import url(https://fonts.googleapis.com/css2?family=Bahiana&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alice&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bayon&display=swap);
+
+body {
+  font-family: 'Bayon', display;
+}
+
+body{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+
+.navbar-menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+   margin-left: 15%;
+    margin-top: 1.2%;
+}
+button{
+    border-radius: 15rem;
+}
+
+
+
+/* Slideshow container */
+.slider{
+    background-color: 	#ada5e4;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color:black;
+  font-size: 50px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3%;
+  background-color: white;
+  width:auto;
+  height: 35%;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+#slider-btn {
+  cursor: pointer;
+  margin-left: 40%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  color: black;
+margin-bottom: -10%;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+#row{
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 3;
+  padding: 0.75em;
+}
+.middle-section{
+  margin-left: 10%;
+}
+.middle-section h1{
+  font-size: 40px;
+  text-align: center;
+  color:navy;
+  font-weight: 600;
+  margin-top: 40px;
+  font-family: 'alice', display;
+}
+.icon{
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  color: whitesmoke;
+  border-radius: 100%;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+.middle-section img{
+  width: 200px;
+  margin-bottom:8% ;
+  
+}
+.middle-section h2{
+  font-family: 'blackopps', display;
+  font-size: 35px;
+  color: black;
+  font-weight: 300;
+  font-stretch: extra-expanded;
+
+}
+.middle-section h3{
+    font-family: 'Candal', sans-serif;
+    color: #000;
+    
+}
+#content-icon{
+  width: 10px;
+}
+section .card{
+  width: 1000px;
+ margin-left: 15%;
+ margin-top: 5%;
+}
+.section-text{
+  font-size: 40px;
+
+  text-align: center;
+  color: navy;
+  font-weight: 600;
+  margin-top: 40px;
+  font-family: 'alice', display;
+}
+.text-cont{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+.hero{
+  margin-top: 3%;
+}
+.hero .card{
+  height: 90px;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 25%;
+  padding-top:10% ;
+  
+}
+.final{
+  background-color: greenyellow;
+  padding-top: 1%;
+}
+.step{
+  background-color: cornflowerblue;
+  color: azure;
+  width: 15%;
+  text-align: center;
+  height: 30px;
+ 
+}
+
+.fin-text{
+  padding-bottom: 5%;
+}
+.fin-text p{
+  text-align: center;
+  font-size: 40px;
+  font-family: Bigshoulderstext;
+  color: black;
+
+}
+.fin-text h2{
+  font-size: 25px;
+  text-align: center;
+  color: #000;
+}
+#fin-head h1{
+  font-size: 30px;
+  font-family: 'Aladin', handwriting;
+  color: whitesmoke;
+  font-weight: 700;
+  
+}
+.col-text{
+  font-size: 20px;
+  color: #000;
+}
+li{
+  margin-left: 15%;
+}
+
+footer ul{
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+  font-family: aladin;
+}
+footer li{
+  margin-left: 0%;
+  text-decoration: none;
+  color: #717171;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:960px){
+#slider-btn{
+    margin-left: 25%;
+    margin-top: 2%;
+  
+}
+.text{
+    margin-bottom: 3%;
+    font-size: 40px;
+    padding-bottom: 30%;
+}
+.prev, .next{
+    display: none;
+}
+.row{
+  flex-direction: column;
+}
+.middle-section{
+  margin-left: 15%;
+}
+.middle-section h1{
+  margin-right: 20%;
+}
+#content-icon{
+    width: auto;
+}
+#row{
+  flex-direction: row;
+}
+section .card{
+  width: auto;
+  margin-left: auto;
+}
+.step{
+  width: 35%;
+  font-size: 20px;
+}
+}
