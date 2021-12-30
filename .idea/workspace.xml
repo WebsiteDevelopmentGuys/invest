@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="794c8680-f6b2-4145-b732-c6d84f098fb2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/bulma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/step-pic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_ether_re_y7ft.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_gifts_re_97j6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_invest_re_8jl5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_investing_re_bov7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_referral_-4-ki4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_stock_prices_re_js33.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/undraw_wallet_aym5.svg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="22yZbP0qInSfdziZOtqTzGsESq8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="794c8680-f6b2-4145-b732-c6d84f098fb2" name="Changes" comment="" />
+      <created>1640811862125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640811862125</updated>
+    </task>
+    <servers />
+  </component>
+</project>
