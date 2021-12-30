@@ -37,6 +37,12 @@ input {
 	color: white;
 }
 
+input:focus {
+	background: white;
+	border: 2px solid navy;
+	color: black;
+}
+
 .terms {
 	display: flex;
 	margin: 4px;
@@ -69,4 +75,59 @@ button {
 	border: none;
 	border-radius: 5px;
 	color: white;
+}
+
+button:hover {
+	background: rgba(0, 0, 128, 0.544);
+}
+
+@media screen and (min-width: 600px) {
+
+	.row {
+		display: flex;
+		flex-flow: wrap;
+		padding: 0.75em;
+	}
+
+	.column {
+		flex: 50%;
+	}
+
+	.col {
+		display: flex;
+		flex-direction: column;
+		align-items: right;
+		justify-content: right;
+	}
+
+	div.button {
+		display: flex;
+		align-items: right;
+		width: 100%;
+		justify-content: right;
+	}
+
+	button {
+		flex-basis: 50%;
+	}
+}
+
+@media screen and (min-width: 800px) {
+
+	.row {
+		display: flex;
+		flex-flow: wrap;
+		padding: 0.75em;
+	}
+
+	.column {
+		flex: 50%;
+	}
+
+	div.button {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		justify-content: right;
+	}
 }
