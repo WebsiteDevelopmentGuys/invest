@@ -131,3 +131,15 @@ fieldset.field-line {
 legend {
 	text-align: center;
 }
+
+.social {
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*md-1 means material design one.*/
+.md-1 {
+	background: navy;
+	flex
+}
