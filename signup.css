@@ -133,13 +133,22 @@ legend {
 }
 
 .social {
-	background: white;
+	width: 100%;
+	height: auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
+
+
 /*md-1 means material design one.*/
 .md-1 {
 	background: navy;
-	flex
+	width: 200px;
+	text-align: center;
+	padding: 15px 30px;
+	margin-right: 15px;
+	color: white;
+	border-radius: 10px;
 }
+
