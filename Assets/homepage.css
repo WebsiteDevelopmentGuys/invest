@@ -263,7 +263,10 @@ footer li{
   text-decoration: none;
   color: #717171;
 }
-
+.foto-row{
+  display: flex;
+  flex-direction: row;
+}
 
 
 
@@ -312,5 +315,13 @@ section .card{
 .step{
   width: 35%;
   font-size: 20px;
+}
+.foto-img{
+  height: 25px;
+  width: 20px;
+ 
+}
+.foto-row{
+  display: column;
 }
 }
