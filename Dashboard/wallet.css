@@ -59,9 +59,15 @@ body{
     color: #fff;
     border-radius: 6px;
     border-style: none;
+    transition: 0.5s;
 
 
 }
+
+.btn button:hover{
+    transform: translatey(-0.5em);
+}
+
 
 .transact{
     display: flex;
