@@ -25,13 +25,13 @@ body{
     background-color: hsl(230, 17%, 14%);
 }
 
-
+/* main */
 .main{
     display: flex;
     flex-direction: row;
     height: 100%;
 }
-
+/* dashboard navigation styling starts here  */
 .side-nav{
     width: 20%;
     padding: 24px;
@@ -48,10 +48,6 @@ body{
     margin-bottom: 50px;
     
 }
-
-
-
-
 
 .logo img{
     max-width: 100%;
@@ -84,7 +80,10 @@ nav ul li:hover{
     transform: scale(1.1);
 }
 
+/* dashboard navigation styling ends here  */
 
+
+/* items in the dashboard styling begins here  */
 .dash-contents{
     width: 100%;
     background-color: hsl(230, 17%, 14%);
@@ -103,6 +102,7 @@ nav ul li:hover{
     margin: 20px 10px;
 }
 
+/* this card is where the balance, profit and total balance is displayed  */
 .card{
     background-color: #fff;
     text-align: center;
@@ -114,8 +114,6 @@ nav ul li:hover{
 
     
 }
-
-
 
 .item-details{
     text-align: center;
@@ -157,6 +155,12 @@ nav ul li:hover{
     transform: scale(1.1);
 }
 
+
+/* the cards and items in it styling ends here  */
+
+
+/* chart styling */
+
 .illustration{
     display: flex;
     align-items: center;
@@ -191,10 +195,10 @@ nav ul li:hover{
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    margin: 15% auto; 
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%;
   }
   
   /* The Close Button */
