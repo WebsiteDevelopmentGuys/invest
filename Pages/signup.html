@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Assets/bulma.css">
+    <link rel="stylesheet" href="../Assets/homepage.css">
+    <!-- <link rel="stylesheet" href="../Assets/auth.css"> -->
+    <title>Register</title>
+<style>
+    section{
+        padding-top: 15%;
+       
+    }
+.card-sign{
+    background-color: #ffff;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.2), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+   
+    
+}
+#number{
+    margin-left:10% ;
+    width: 750px;
+}
+#lname {
+    margin-left: 30%;
+    width: 400px;
+   
+}
+#fname{
+    width: 400px;
+    padding-bottom: 2px;
+}
+select{
+    border-radius:25px;
+    height: 3.5em;
+    display: flex;
+    text-align: center;
+    border: 2px solid rgb(100, 216, 237);
+    width: 300px;
+}
+input{
+    border-radius:25px;
+    width: 300px;
+    height: 3.5em;
+    display: flex;
+    text-align: center;
+    border: 2px solid rgb(100, 216, 237);
+    
+    
+}
+form{
+    font-size: 32px;
+    padding-bottom: 50px;
+}
+#first{
+    padding-bottom: 3%;
+}
+#second{
+    padding-bottom: 3%;
+    font-size: 25px;
+}
+#pass , #email{
+    margin-left: 15%;
+    width: 700px;
+    padding-bottom: 1px;
+}
+.email{
+    padding-bottom: 2%;
+}
+.pass{
+    padding-bottom: 1%;
+}
+.check{
+        font-size: 13px;
+        text-align: center;
+}
+.forget-pass, .sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-decoration: none;
+
+  
+}
+.forget-pass{
+    margin-left: 20%;
+    color: red;
+}
+.sign-in{
+    margin-right: 25%;
+}
+
+@media only screen and (max-width:640px){
+        .card-sign{
+            width: 105%;
+            margin-left: 0;
+        }
+        input{
+            width: 370px;
+            padding-top: 2px;
+        }
+        select{
+            width: 370px;
+            margin-left: 4%;
+            padding-bottom: 5px;
+        }
+        #fname{
+            width: 370px;
+            margin-left: 4%;
+          
+           
+        }
+        #lname{
+            width: 370px;
+            margin-left: 4%;
+            padding-bottom: 3px;
+        }
+        #email, #pass , #number{
+            width: 370px;
+            margin-left: 4%;
+        }
+        #number{
+            padding-top: 2px;
+        }
+        form{
+            font-size: 20px;
+        }
+        .sign-in{
+            margin-left: 20%;
+        }
+        
+        select, option{
+            width: 200px;
+            margin-left: 25%;
+           
+        }
+        #number{
+            padding-bottom: 2px;
+        }
+
+
+
+}
+
+
+
+</style>
+</head>
+<body>
+     <!-- start of navbar -->
+
+     <nav class="navbar is-fixed-top-desktop" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+        
+            <img src="../images/Screenshot from 2021-12-30 09-10-17.png" width="200" height="28">
+          
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="./About.html" class="navbar-item">
+              Why us
+            </a>
+      
+            <a class="navbar-item">
+              Payment Option
+            </a>
+      
+          
+              <a class="navbar-item">
+                Platform
+              </a>
+      
+             
+                <a class="navbar-item">
+                  How to Start
+                </a>
+                <a class="navbar-item">
+                  FAQ
+                </a>
+                
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a href="./signup.html" class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a href="./login.html" class="button is-light">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+  
+  
+      <!-- navbar end -->
+<section>
+       <div class="card-sign">
+           <form action="" method="get">
+               <div id="first" class="row">
+               <input type="text" name="fname" id="fname" placeholder="Firstname" required autocomplete="none">
+               
+               <input type="text" name="lname" id="lname" placeholder="Lastname" required autocomplete="none">
+            </div>
+            
+            <div id="second" class="row">
+                <select name="code" id="code">
+                    <option value="NGN">+234</option>
+                    <option value="GHANA">+233</option>
+                    <option value="EGYPT ">+20</option>
+                    <option value="Unitted">+1</option>
+                    <option value="france">+33</option>
+                    <option value="mexico">+52</option>
+                    <option value="Uk">+44</option>
+                    <option value="india">+91</option>
+                    <option value="bel">+32</option>
+                </select>
+                
+                <input type="number" name="number" id="number" placeholder="Phone number" required autocomplete="none">
+            </div>
+            <div class="email">
+            <input type="email" name="" id="email" placeholder="Email@email.com" required autocomplete="none">
+        </div>
+        <div class="pass">
+            <input type="password" name="" id="pass" placeholder="******" required autocomplete="none">
+        </div>
+        <div class="check">
+      <div class="row">
+          
+       <a class="forget-pass" href="">Forgot your password</a>
+
+    
+        <a class="sign-in" href="./login.html">Already have an account ? Sign in</a>
+    
+      </div>
+      
+    </div> 
+           
+            
+
+           </form>
+       </div>
+       
+
+    </section>
+
+<br><br><br><br>
+<footer>
+  
+    <div class="row">
+      <div class="column">
+        <img src="../images/Screenshot from 2021-12-30 09-10-17.png" alt="" srcset="">
+      </div>
+      <div class="column">
+      
+        <ul>
+          ABOUT OUR COMPANY
+        <a href="">  <li>User Agreement</li></a>
+          <a href=""><li>Confidentiality Policy</li></a>
+         <a href=""> <li>Risk statement</li></a>
+          <a href=""><li>Bonus rules</li></a>
+        </ul>
+      </div>
+      <div class="column">
+        <ul>
+          TRADING PLATFORM
+          <a href=""><li>Platform features</li></a>
+          <a href=""><li>Trading Assets</li></a>
+        </ul>
+      </div>
+      <div class="column">
+        <ul>
+         FAQ
+         <a href=""><li>FAQ</li></a>
+        </ul>
+      </div>
+      <div class="column">
+        <ul>
+          HOW TO START?
+          <a href=""><li>Open an Account</li></a>
+         <a href=""> <li>Payment Option</li></a>
+         <a href=""> <li>Account Types</li></a>
+        </ul>
+      </div>
+      <div class="column">
+        <ul>Follow us on</ul>
+        <div class="foto-row">
+          <img class="foto-img" src="https://img.icons8.com/fluency/48/000000/twitter.png"/>
+          <img class="foto-img" src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/>
+        </div>
+  
+      </div>
+    
+        
+      
+      <!-- <div class="elfsight-app-c3fcf897-363c-4b32-89d7-0f762e3053a0"></div>
+         -->
+        
+      
+    </div>
+   
+   
+  
+  </footer>
+
+
+
+
+
+      <script src="../Assets/navbar.js"></script>
+    
+</body>
+</html>

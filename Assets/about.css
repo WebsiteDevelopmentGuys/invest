@@ -1,0 +1,33 @@
+body {
+   
+  
+    font-family: 'tradegothiclt-bold', sans-serif;
+  }
+  
+  h1 {
+      padding-top: 10%;
+    font-size: 3em;
+    /* color: rgb(20, 19, 19); */
+    text-transform: uppercase;
+    padding-bottom: 3%;
+    color: rgb(100, 216, 237);
+  }
+  
+  span {
+    border-right: .05em solid;
+    animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+.head-text{
+    padding-bottom: 5%;
+}
+  .head-text,  .bottom-head{
+      font-size: 2em;
+      color: black;
+      text-transform: uppercase;
+  }

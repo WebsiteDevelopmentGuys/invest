@@ -132,6 +132,7 @@ margin-bottom: -10%;
   flex-direction: row;
 }
 
+
 .column {
   flex-basis: 0;
   flex-grow: 1;
@@ -324,4 +325,5 @@ section .card{
 .foto-row{
   display: column;
 }
+
 }
