@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Bahiana&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Alice&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bayon&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.display-balance{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 30px auto;
+    background-color: rgba(220, 231, 230, 0.521);
+    width: 40%;
+    padding: 30px;
+    
+}
+
+
+.display-balance h1{
+    margin-bottom: 12px;
+    color: hsl(232, 71%, 12%);
+    font-family: 'Aladin', handwriting;
+}
+
+
+.amount{
+    font-family: 'Space Mono', monospace;
+
+}
+
+
+
+.btn{
+    text-align: center;
+    margin: 30px;
+}
+.btn button{
+    width: 120px;
+    margin: 6px;
+    padding: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: hsl(232, 71%, 12%);
+    color: #fff;
+    border-radius: 6px;
+    border-style: none;
+
+
+}
+
+.transact{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;background-color: rgba(220, 231, 230, 0.521);
+    padding: 20px;
+}
+
