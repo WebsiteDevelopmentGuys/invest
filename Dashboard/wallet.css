@@ -49,7 +49,7 @@ body{
     text-align: center;
     margin: 30px;
 }
-.btn button{
+.btns button{
     width: 120px;
     margin: 6px;
     padding: 14px;
@@ -64,7 +64,7 @@ body{
 
 }
 
-.btn button:hover{
+.btns button:hover{
     transform: translatey(-0.5em);
 }
 

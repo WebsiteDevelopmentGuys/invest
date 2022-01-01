@@ -40,7 +40,6 @@ body{
     background-color: #fff;
     color: hsl(232, 59%, 10%);
     height: 100vh;
-    
 
 }
 .user{
@@ -110,9 +109,7 @@ nav ul li:hover{
     border-radius: 6px;
     width: 260px;
     height: 140px;
-
-
-    
+ 
 }
 
 .item-details{
