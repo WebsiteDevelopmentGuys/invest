@@ -5,9 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-
+   
     <link rel="stylesheet" href="dashboard.css">
-    <title>Document</title>
+    <title>Dashboard</title>
 </head>
 <body>
     <main class="main">
@@ -22,18 +22,60 @@
                 
             </div>
 
-            <nav>
+            <nav class="navitem">
                 <ul>
-                    <li><a href="#">dashboard</a></li>
-                    <li><a href="#">invest</a></li>
-                    <li><a href="./wallet.html">wallet</a></li>
-                    <li><a href="#">profile</a></li>
-                    <li><a href="#">logout</a></li>
+                    <li><a href="#">
+                        <div class="row">
+                            <div class="column">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAH1JREFUSEvtlUsOgCAMRIeTqTfXk2lMxIUGfJnYbpRtB4bXDxQFrxJ8vtINZklDg2qPTUeM6m4E60PKKjHV/QbNhJ7Nc+0imluqs2vQ66JF0ljZXAI8n+kGFN0eNIpuFzncgKLbBHQj1dlz8GGDN+ag+1TQNsW69D8Z34wKN2WtKBmr5BH3AAAAAElFTkSuQmCC"/>
+                        </div>
+                        <div class="column">
+                            dashboard
+                        </div>
+                        </div>
+                   </a></li>
+                    <li><a href="#">
+                        <div class="row">
+                            <div class="column">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAIxJREFUSEvtllEOgCAMQ8vJ1JvryTQmwMdi08myGKP+idDXMgQKkp+SrA8F2KsB1Y/6VAMfB0gDLMEKYDK5z7bFtA0D2kA7t9ZQGNAErZA3IV1FVpC9q4RhAEvYwazI3gQ/oNfo7pS9pwZpy/TqR9sAzJJYO6RvFV6Hw3tRS6oE1PcPnGjhO4E6k8OAA8utOBmorOCXAAAAAElFTkSuQmCC"/>                        </div>
+                        <div id="invest" class="column">
+                            invest
+                        </div>
+                        </div>
+                    </a></li>
+                    <li><a href="./wallet.html">
+                        <div class="row">
+                            <div class="column">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALVJREFUSEvtlcERgkAMRd9WQAloRYwdYAW2YimWYCnSgR3ohNk4WXEPxA0nuDHD/y8/YTeJ4CcF+7M54AoMwMGR7AGcgbvV2gRifnEYW4lAjjXAE+iAE3BzgF5ZU7TdvugH4QBH8YWkmMWvBP8CRP+ZRRRAILP3DrBd0L9QZ9isRdrmHbD6eDSbQY28AMjp61fXWRcsAC2ua8VNulO+N5pAxnxte8OIuXjMi2fzlemtuqoLT/AGNBEjGeoNmCwAAAAASUVORK5CYII="/>
+                            </div>
+                        <div class="column">
+                            wallet
+                        </div>
+                        </div>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="row">
+                            <div class="column">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPRJREFUSEvNlWENwjAQhb8pAAmgAJCAA3AACpAAKCAoQAJIQAIOQAIogLxkDdC1vWVlZPfnsqx53/Xd7lbQchQt61MXMAbWgLLiAmzLnKyxDmAGHCMqc+CUIliAPnAFlENxB4aAcjAsQKp6JzgFzk0Bm9L7lAvqhc518wby/gb0IgU+gEFOD6Tb6lfkCtf3L58/50DPmofsObA0ugtQg1dlD5w1frWySJO8jzU6NmgLYJeYYB+kSV6G1kYIIPFDQ+Mru8kHWLvH4lZ2kw+osxosyNfq8AFq2shSMN5LY+LO+IBnpnhF9++AH13gLWP9cLKBrQNeWrEoGRxI2IoAAAAASUVORK5CYII="/>                            </div>
+                        <div class="column">
+                            profile
+                        </div>
+                        </div>
+                    </a></li>
+                    <li><a href="#">
+                        <div class="row">
+                            <div class="column">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAK1JREFUSEtjZKAxYKSx+QykWHCBgYFBnoGB4QAUH2RgYACJ4QWkWPAfi0kfCFmIywKQK+2RDASpw2YBup0gHxkiC+KyAN0wYi0AmY1iJiELkOWJ8cGoBYQSJVieKnHwEWoVPxYrqWKBItTg+0PWAnyRQZUgGrUAXrDRvKiAhTXVCztyi+uLDAwMBsQU19hSCbbS9CFShQNy1AN0jaTUaKDKRICQgZRYQFRJR3cLAK29NxnnJ5tcAAAAAElFTkSuQmCC"/>                            </div>                        
+                            <div class="column">
+                            logout
+                        </div>
+                        </div>
+                    </a></li>
                 </ul>
             </nav>
 
-            <div class="settings" style="text-align: left; text-transform: capitalize; padding: 16px;">
-                <h1>Rash kobby</h1>
+            <div class="settings" style=" text-transform: capitalize; padding: 10px;">
+               <img src="https://img.icons8.com/color/48/000000/user.png"/>
             </div>
         </section>
         <!-- dashboard navigation ends here  -->
@@ -47,7 +89,7 @@
                         <p class="item-name">Balance</p>
                     </div>
                     <div class="item-price" style="display: inline;">
-                        <h4 class="item-value">$55,000 </h4>                       
+                        <h4 class="item-value">$0 </h4>                       
                     </div>
                     <div class="btns">
                         <button>deposit</button>
@@ -60,7 +102,7 @@
                         <p class="item-name">profit</p>
                     </div>
                     <div class="item-price" style="display: inline;">
-                        <h4 class="item-value">$55,000  </h4>                      
+                        <h4 class="item-value">$0  </h4>                      
                     </div>
                     <div class="btns">
                         <button id="withdraw">withdraw</button>                       
@@ -80,7 +122,7 @@
                         <p class="item-name">total balance</p>
                     </div>
                     <div class="item-price" style="display: inline;">
-                        <h4 class="item-value">$55,000 </h4>                       
+                        <h4 class="item-value">$0 </h4>                       
                     </div>                   
                 </div>               
             </div>
