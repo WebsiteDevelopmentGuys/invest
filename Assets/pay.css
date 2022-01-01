@@ -1,0 +1,102 @@
+body{
+    font-family: bayon;
+}
+
+section{
+    background-color: goldenrod;
+    padding-top: 7%;
+    height: 55%;
+    
+}
+.txt-slide{
+    color: whitesmoke;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+p{
+    font-size: 28px;
+    color: whitesmoke;
+    text-align: center;
+}
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+  
+    text-align: center;
+}
+th{
+    
+    text-align: center;
+    font-size: 28px;
+   
+    
+}
+
+tr img{
+    width: 70px;
+}
+.card{
+    width: 80%;
+    margin-left: 10%;
+}
+td{
+    font-size: 25px;
+    color: black;
+}
+.header {
+    /* Background color */
+    background-color: rgba(42, 128, 131, 0.719);
+
+    /* Stick to the top */
+    position: sticky;
+    top: 0;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 3;
+    padding: 0.75em;
+
+    /* Displayed on top of other rows when scrolling */
+  
+    color: whitesmoke;
+}
+
+@media only screen and (max-width:1024px){
+    .card{
+        
+        margin-left: 10%;
+    }
+
+
+}
+
+@media only screen and (max-width:640px){
+    .card{
+        width: 100%;
+        margin-left: 2.5%;
+    }
+    td{
+        font-size: 15px;
+    }
+    th{
+        font-size: 20px;
+    }
+    .header{
+      
+        padding:0.1em
+    }
+
+}
+
+@media only screen and (max-width:568px){
+        .card{
+            margin-left: 1.5%;
+        }
+        .header{
+            padding: 0;
+        }
+}
+
+
