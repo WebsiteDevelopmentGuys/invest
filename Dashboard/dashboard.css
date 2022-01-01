@@ -30,17 +30,48 @@ body{
     display: flex;
     flex-direction: row;
     height: 100%;
+    
 }
 /* dashboard navigation styling starts here  */
 .side-nav{
-    width: 20%;
-    padding: 24px;
+    width: 14%;
+    padding: 1px;
     align-items: center;
-    text-align: center;
+    position: fixed;
     background-color: #fff;
     color: hsl(232, 59%, 10%);
     height: 100vh;
+    box-shadow: 1px 0 0 rgba(22,8,43,.1);
+ 
+}
+.material {
+    font-size: 30px;
+    display: none;
+}
+   
+#close{
+    position: relative;
+    color: black;
+   top: 2%;
+   left: 90%;
+   font-size: 30px;
+   display: none;
+    
+}
+#close:hover, #ham:hover{
+    color: whitesmoke;
+    cursor: pointer;
 
+}
+#ham{
+    position: absolute;
+    top: 3%;
+    left: 1%;
+    color: white;
+    background-color:whitesmoke;
+    border-radius: 25px;
+    padding: 8px;
+    display: none;
 }
 .user{
     
@@ -66,9 +97,10 @@ nav ul {
 }
 
 nav ul li {
-    padding: 10px 0;
+    padding: 20px 0;
     transition: 0.5s;
 }
+
 nav ul li a{
     text-decoration: none;
     color: hsl(232, 59%, 10%);
@@ -84,9 +116,10 @@ nav ul li:hover{
 
 /* items in the dashboard styling begins here  */
 .dash-contents{
-    width: 100%;
+    width: 90%;
     background-color: hsl(230, 17%, 14%);
-    padding: 10px;
+    
+  
 }
 
 
@@ -94,32 +127,63 @@ nav ul li:hover{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    
     grid-template-columns: repeat(4,1fr);
     grid-gap: 1.2rem;
     grid-auto-rows: auto;
-    margin: 20px 10px;
+    margin: 5px 10px;
+    padding-left:20%;
+    
+}
+.settings{
+    margin-left: 20%;
+    width: 50%;
+    background-color: cadetblue;
+    height: 4em;
+    border-radius: 100%;
 }
 
 /* this card is where the balance, profit and total balance is displayed  */
 .card{
     background-color: #fff;
     text-align: center;
-    padding: 12px;
+  
     border-radius: 6px;
-    width: 260px;
-    height: 140px;
- 
+    width: 300px;
+    height: 130px;
+    font-size: 25px;
+
+
+    
 }
 
 .item-details{
     text-align: center;
     align-items: center;
     text-transform: capitalize;
-    margin: 8px 0;
+  
+    
+   
 }
+.row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  .column {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 3;
+    padding: 0em;
+  }
 
-
+.navitem{
+    font-size: 15px;
+    padding: 0.75em;
+    font-weight: 900;
+   
+}
 .item-value{
     font-size: 25px;
     font-weight: 500;
@@ -133,11 +197,12 @@ nav ul li:hover{
 
 .btns{
     text-align: center;
+  
 }
 .btns button{
-    width: 74px;
+    width: 200px;
     margin: 6px;
-    padding: 8px;
+    padding: 1px;
     text-align: center;
     text-transform: capitalize;
     background-color: hsl(232, 71%, 12%);
@@ -145,6 +210,8 @@ nav ul li:hover{
     border-radius: 6px;
     border-style: none;
     transition: 0.5s;
+    height: 2.5em;
+    font-size: 15px;
 
 
 }
@@ -160,19 +227,21 @@ nav ul li:hover{
 
 .illustration{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-left: 12%;
+    
 }
 .graph{
-    width: 80%;
-    height: 430px;
-    margin: 0 20px;
+    width: 100%;
+    height: 70vh;
+    margin-left: 40px;
+   
     
 }
 
 .graph iframe{
-    max-width: 100%;
-    max-height: 100%;
+    width: 113%;
+    
+  height: 70vh;
 }
 
 /* modal styling */
@@ -213,4 +282,38 @@ nav ul li:hover{
     cursor: pointer;
   }
 
-
+    @media only screen and (max-width:960px){
+        .side-nav{
+           display: none;
+           width: 80%;
+        }
+        #ham{
+            display: block;
+        }
+        #close{
+            display: block;
+        }
+        .illustration{
+            padding-top: 5%;
+            margin-left: 0;
+        }
+      
+        .portfolio{
+          margin: 0;
+          padding-left: 0%;
+          width: 110%;
+          
+        }
+        .btns, .button{
+            width: 100%;
+        }
+        .card{
+            width: 100%;
+        }
+        .settings{
+            width: 20%;
+           margin-left: 0;
+           padding-bottom: 100%;
+           height: 4em;
+        }
+    }
