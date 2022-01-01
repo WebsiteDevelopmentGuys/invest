@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* - Very Dark Blue (BG): hsl(230, 17%, 14%)
+- Very Dark Blue (Top BG Pattern): hsl(232, 19%, 15%)
+- Dark Desaturated Blue (Card BG): hsl(228, 28%, 20%)
+- Desaturated Blue (Text): hsl(228, 34%, 66%)
+- White (Text): hsl(0, 0%, 100%)
+
+#### Light Theme
+
+- White (BG): hsl(0, 0%, 100%)
+- Very Pale Blue (Top BG Pattern): hsl(225, 100%, 98%)
+- Light Grayish Blue (Card BG): hsl(227, 47%, 96%)
+- Dark Grayish Blue (Text): hsl(228, 12%, 44%)
+- Very Dark Blue (Text): hsl(230, 17%, 14%) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(230, 17%, 14%);
+}
+
+/* main */
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+/* dashboard navigation styling starts here  */
+.side-nav{
+    width: 20%;
+    padding: 24px;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    color: hsl(232, 59%, 10%);
+    height: 100vh;
+    
+
+}
+.user{
+    
+    margin-bottom: 50px;
+    
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+
+nav{
+    margin-bottom: 60px;
+    text-align: left;
+    padding-left: 16px;
+}
+
+
+nav ul {
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 10px 0;
+    transition: 0.5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: hsl(232, 59%, 10%);
+}
+
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+/* dashboard navigation styling ends here  */
+
+
+/* items in the dashboard styling begins here  */
+.dash-contents{
+    width: 100%;
+    background-color: hsl(230, 17%, 14%);
+    padding: 10px;
+}
+
+
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.2rem;
+    grid-auto-rows: auto;
+    margin: 20px 10px;
+}
+
+/* this card is where the balance, profit and total balance is displayed  */
+.card{
+    background-color: #fff;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    width: 260px;
+    height: 140px;
+
+
+    
+}
+
+.item-details{
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    margin: 8px 0;
+}
+
+
+.item-value{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-family: 'Space Mono', monospace;
+}
+
+.item-name{
+    text-align: center;
+}
+
+.btns{
+    text-align: center;
+}
+.btns button{
+    width: 74px;
+    margin: 6px;
+    padding: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: hsl(232, 71%, 12%);
+    color: #fff;
+    border-radius: 6px;
+    border-style: none;
+    transition: 0.5s;
+
+
+}
+.btns button:hover{
+    transform: scale(1.1);
+}
+
+
+/* the cards and items in it styling ends here  */
+
+
+/* chart styling */
+
+.illustration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.graph{
+    width: 80%;
+    height: 430px;
+    margin: 0 20px;
+    
+}
+
+.graph iframe{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* modal styling */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
