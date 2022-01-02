@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="wallet.css">
     <title>wallet</title>
 </head>
@@ -24,10 +26,53 @@
         </section>
 
         <div class="btns">
-            <button class="btn">withdraw</button>
+            <button class="btn" id="withdraw">withdraw</button>
             <button class="btn">deposit</button>
             <button class="btn">transfer</button>
         </div>
+        <div id="myModal" class="modal">
+
+                        
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="row">
+                <br>
+                 <div class="columnx">
+                   <img style="width: 300px; height: 7em;" src="../images/undraw_wallet_aym5.svg" alt="" srcset="">
+                 </div>
+                 <div class="columnx">
+              <form action="" method="post">
+                
+                      <h1>Add your bitcoin wallet address to receive your dividends, as your ROi mature for withdrawal</h1>
+                     
+                                                                      
+                        <input type="text" name="" id="" placeholder="wallet address">
+                            
+                                        
+                        <input type="number" name="" id="" placeholder="Amount">
+                                            
+                        <input type="text" name="" id="" placeholder="Description">
+                    
+                   
+                        <select name="" id="" aria-placeholder="Transaction type">
+                            <option value="">Available Balance</option>
+                            <option value="">Bank</option>
+                            <option value="">Cryptocoin</option>
+                        </select>
+                       
+                        <div class="btny">
+                            <button onclick="myPrompt()" class="btnx">Submit Wallet <i style="font-size: 20px;" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+                        </div>
+
+                        <h1 id="demo"></h1>
+                  
+                
+                    </form>
+                 </div>
+                </div>
+            </div>
+          
+          </div>
     </div>
         <div class="transactions">
             <h2 style="text-transform: uppercase; margin: 30px;">transactions</h2>
@@ -93,5 +138,6 @@
     </div>
 
     </main>
+    <script src="modal.js"></script>
 </body>
 </html>

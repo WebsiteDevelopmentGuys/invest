@@ -260,6 +260,13 @@ nav ul li:hover{
     
   height: 70vh;
 }
+
+
+.modal{
+    display: none;
+}
+
+
 .modal h1{
    
     color: hsl(232, 71%, 12%);
@@ -290,6 +297,7 @@ nav ul li:hover{
     
 }
 
+
 .modal input,select{
     width: 80%;
     height: 2.5em;
@@ -305,7 +313,7 @@ nav ul li:hover{
 
 /* modal styling */
 .modal {
-    display: flex; 
+    display: none; 
     position: fixed; 
     z-index: 1; 
     left: 0;
