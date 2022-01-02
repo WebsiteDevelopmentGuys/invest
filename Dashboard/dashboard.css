@@ -298,6 +298,12 @@ nav ul li:hover{
 }
 
 
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .modal input,select{
     width: 80%;
     height: 2.5em;
