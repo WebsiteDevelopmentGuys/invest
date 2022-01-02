@@ -15,13 +15,14 @@
 
         })
 
-        // function myFunction() {
-        //     var x = document.getElementById("ham");
-        //     var x = document.getElementById("close");
-
-        //     if (x.style.display === "block") {
-        //       x.style.display = "none";
-        //     } else {
-        //       x.style.display = "block";
-        //     }
-        //   }
+    function myPrompt(){
+        
+        let text;
+if (confirm("Wallet Address have been submitted successful") == true) {
+  text = "Withdraw Application sent successful";
+} else {
+  text = "You canceled!";
+}
+document.getElementById("demo").innerHTML = text;
+        
+    }
